@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hunter Mania</title>
+  <style>
+    .btn
+    {
+      background-color: #FF0000;
+      border: none;
+      color: white;
+      padding: 16px 40px;
+      border-radius: 8px;
+      transition-duration: 0.4s;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 20px;
+      margin: 4px 2px;
+      cursor: pointer;
+      position: relative;
+      left: 660px;
+      top: 590px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    .btn1
+    {
+      background-color: #FF0000; 
+      color: white; 
+      border: 2px solid #FF0000;
+    }
+
+    .btn1:hover
+    {
+      background-color: #ff3030;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+      color: whitesmoke;
+    }
+  </style>
+</head>
+<body background= "./end card.png" >
+  <div>
+    <button class="btn btn1" onclick="openFile()" >TRY AGAIN</button>
+  </div>
+  <script>
+
+    function openFile() {
+      window.location.href = "./start.html";
+    }
+  </script>
+</body>
+</html>
