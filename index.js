@@ -300,16 +300,16 @@ const player = new Player({
 		y:630,
 	},
 	CollissionBlocks,
-	imageSrc:'./Idle (32x32).png.',
+	imageSrc:'./Idle_ (32x32).png.',
 	framerate:11,
 	animations:{
 		idle:{
-			imageSrc:'./Idle (32x32).png',
+			imageSrc:'./Idle_ (32x32).png.',
 			framerate:11,
 			framebuffer: 3,
 		},
 		idleleft:{
-			imageSrc:'./Idle (32x32) - Left.png',
+			imageSrc:'./Idle_(32x32)_-_Left',
 			framerate:11,
 			framebuffer: 3,
 		},
