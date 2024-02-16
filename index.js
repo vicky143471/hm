@@ -309,32 +309,32 @@ const player = new Player({
 			framebuffer: 3,
 		},
 		idleleft:{
-			imageSrc:'./Idle_(32x32)_-_Left',
+			imageSrc:'./Idle_(32x32)_-_Left.png',
 			framerate:11,
 			framebuffer: 3,
 		},
 		run:{
-			imageSrc:'./Run (32x32).png',
+			imageSrc:'./Run_(32x32).png',
 			framerate:12,
 			framebuffer: 3,
 		},
 		jump:{
-			imageSrc:'./Jump (32x32).png',
+			imageSrc:'./Jump_(32x32).png',
 			framerate:1,
 			framebuffer: 1,
 		},
 		jumpleft:{
-			imageSrc:'./Jump (32x32) - Left.png',
+			imageSrc:'./Jump_(32x32)_-_Left.png',
 			framerate:1,
 			framebuffer: 1,
 		},
 		fall:{
-			imageSrc:'./Fall (32x32).png',
+			imageSrc:'./Fall_(32x32).png',
 			framerate:1,
 			framebuffer: 1,
 		},
 		fallleft:{
-			imageSrc:'./Fall (32x32) - left.png',
+			imageSrc:'./Fall_(32x32)_-_Left.png',
 			framerate:1,
 			framebuffer: 1,
 		},
